@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Password Application</string>
+    <string name="enter_password">Şifrenizi Girin.:</string>
+    <string name="set_password">Şifrenizi Belirleyiniz:</string>
+    <string name="title_activity_settings">Ayarlar</string>
+    <string name="reset_pass">Şifre Sıfırlama</string>
+    <string name="password">Şifre</string>
+    <string name="old_password">Eski Şifre</string>
+    <string name="password_again">Şifre Tekrarı</string>
+
+    <string name="generate">Oluştur</string>
+    <string name="list">Liste</string>
+    <string name="lower_case">Küçük Harf</string>
+    <string name="upper_case">Büyük Harf</string>
+    <string name="length">Uzunluk:</string>
+    <string name="numbers">Sayılar</string>
+    <string name="symbols">Semboller</string>
+    <string name="lower" translatable="false">abcdefghijklmnopqrstuvwxyz</string>
+    <string name="upper" translatable="false">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="digits" translatable="false">0123456789</string>
+    <string name="_symbols" translatable="false"><![CDATA[!@#$%&*()_+-=[]|,./?><]]></string>
+    <string name="minus" translatable="false">-</string>
+    <string name="plus" translatable="false">+</string>
+    <string name="title">Başlık</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="save">Kaydet</string>
+    <string name="edit">Düzenle</string>
+    <string name="delete">Sil</string>
+    <string name="options">seçenekler</string>
+    <string name="cancel">İptal Et</string>
+    <string name="copy">Kopyala</string>
+    <!--  Toast texts  -->
+    <string name="small_or_equal_zero">0\'dan küçük veya eşit olamaz</string>
+    <string name="select_option">En az bir seçenek belirleyin.</string>
+    <string name="incorrect_password">Yanlış Şifre</string>
+    <string name="copied_clipboard">Panoya Kopyalandı</string>
+    <string name="data_already_exist">Bu veri zaten mevcut.</string>
+    <string name="error_match">Şifreler uyuşmuyor.</string>
+    <string name="cannot_be_empty">Boş bırakılamaz!</string>
+    <string name="password_has_been_set">Şifre belirlendi.</string>
+    <string name="seven_digits_bug">7 basamaktan büyük olamaz</string>
+    <string name="password_cannot_be_empty">Şifre boş bırakılamaz!</string>
+
+    <!--    Snackba texts-->
+    <string name="password_deleted">Şifre silindi.</string>
+    <string name="undo_delete">GERİ AL</string>
+</resources>

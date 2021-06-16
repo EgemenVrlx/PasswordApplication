@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/editTextEditTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/title"
+        android:inputType="textPersonName"
+        android:textColor="@color/secondaryTextColor"
+        android:background="@drawable/custom_input_password"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"/>
+
+    <EditText
+        android:id="@+id/editTextEditUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="textPersonName"
+        android:textColor="@color/secondaryTextColor"
+        android:background="@drawable/custom_input_password"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"/>
+
+    <EditText
+        android:id="@+id/editTextEditPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPersonName"
+        android:textColor="@color/secondaryTextColor"
+        android:background="@drawable/custom_input_password"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonEditCancel"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/custom_ok_button"
+            android:text="@android:string/cancel"
+            android:textColor="@color/secondaryTextColor" />
+
+        <Button
+            android:id="@+id/buttonEditSave"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/custom_ok_button"
+            android:text="@string/save"
+            android:textColor="@color/secondaryTextColor" />
+    </LinearLayout>
+</LinearLayout>
